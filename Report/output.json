@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22538210472,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To book the product",
+        "description": "",
+        "id": "to-check-the-webpage-of-the-shopee-mall;to-book-the-product",
+        "after": [
+          {
+            "result": {
+              "duration": 225801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3886372538,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "to login the account",
+            "match": {
+              "location": "MainClass.to_login_the_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7406470248,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter the product name and select the product",
+            "match": {
+              "location": "MainClass.enter_the_product_name_and_select_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3935392055,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "check the price and add the product to cart",
+            "match": {
+              "location": "MainClass.check_the_price_and_add_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15381634751,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Give details and pay",
+            "match": {
+              "location": "MainClass.give_details_and_pay()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To check the Webpage of the SHOPEE MALL",
+    "description": "",
+    "id": "to-check-the-webpage-of-the-shopee-mall",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Homepage.feature",
+    "tags": []
+  }
+]
